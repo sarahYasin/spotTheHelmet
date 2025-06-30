@@ -12,21 +12,21 @@
   - Accept image uploads via REST API.
   - Pass image to a Python service/script for processing.
   - Return:
-    ○ Annotated image (with helmets shown).
-    ○ JSON metadata: bounding boxes, confidence scores, helmet .
+    - Annotated image (with helmets shown).
+    - JSON metadata: bounding boxes, confidence scores, helmet .
 
 3- Image Analysis (Python + OpenCV + AI)
    
   - Detect people and helmet use using:
-    ○ Pretrained models YOLOv8
+    - Pretrained models YOLOv8
 
 4- DevOps (Docker + Setup):
 
   - Containerize the app using Docker.
   - Use docker-compose to run:
-    ○ Frontend.
-    ○ Backend.
-    ○ Python processor.
+    - Frontend.
+    - Backend.
+    - Python processor.
   
 
 ## Project Setup
