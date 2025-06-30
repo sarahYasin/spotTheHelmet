@@ -2,19 +2,19 @@
 
 1- frontend
 
-○ Drag-and-drop image upload.
-○ Preview of the uploaded image.
-○ Display of processed results: overlaid boxes/masks and list of detected persons with/without helmets.
-○ Basic loading and error handling.
+  - Drag-and-drop image upload.
+  - Preview of the uploaded image.
+  - Display of processed results: overlaid boxes/masks and list of detected persons with/without helmets.
+  - Basic loading and error handling.
 
-2. Backend (Node.js + Express)
-● Accept image uploads via REST API.
-● Pass image to a Python service/script for processing.
-● Return:
-  ○ Annotated image (with helmets shown).
-  ○ JSON metadata: bounding boxes, confidence scores, helmet .
+2- Backend (Node.js + Express)
+  ● Accept image uploads via REST API.
+  ● Pass image to a Python service/script for processing.
+  ● Return:
+    ○ Annotated image (with helmets shown).
+    ○ JSON metadata: bounding boxes, confidence scores, helmet .
 
-3. Image Analysis (Python + OpenCV + AI)
+3- Image Analysis (Python + OpenCV + AI)
    
 ● Detect people and helmet use using:
   ○ Pretrained models YOLOv8
@@ -28,9 +28,9 @@
   
 
 ## Project Setup
-1-open terminal in image analysis and run python imageAnalysis.py
-2-open terminal in backend and run node server.js
-3-open terminal in fromtend and run npm start 
+1- open terminal in image analysis and run python imageAnalysis.py
+2- open terminal in backend and run node server.js
+3- open terminal in fromtend and run npm start 
 
 or
 
