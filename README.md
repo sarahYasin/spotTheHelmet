@@ -17,13 +17,13 @@
 
 3- Image Analysis (Python + OpenCV + AI)
    
-  ● Detect people and helmet use using:
+  - Detect people and helmet use using:
     ○ Pretrained models YOLOv8
 
 4- DevOps (Docker + Setup):
 
-  ● Containerize the app using Docker.
-  ● Use docker-compose to run:
+  - Containerize the app using Docker.
+  - Use docker-compose to run:
     ○ Frontend.
     ○ Backend.
     ○ Python processor.
@@ -31,7 +31,9 @@
 
 ## Project Setup
 1- open terminal in image analysis and run python imageAnalysis.py
+
 2- open terminal in backend and run node server.js
+
 3- open terminal in fromtend and run npm start 
 
 or
